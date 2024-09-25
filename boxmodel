@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias del FC Barcelona</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #A50034;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #A50034;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #d1d1d1;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            width: 250px; /* Ancho de la tarjeta */
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Noticias del FC Barcelona</h1>
+    <p>NOTICIAS RECIENTES DEL BARCELONA</p>
+</header>
+
+<nav>
+    <a href="#noticias">Noticias</a>
+    <a href="#jugadores">Jugadores</a>
+    <a href="#resultados">Resultados</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <img src="https://pbs.twimg.com/media/GYGP0nMWEAAvCgL.jpg:large" alt="Victoria en el Clásico">
+        <h3>TRISTE LESION DEL CAPI</h3>
+        <p>lesion gravisima del capitan del club cule la cual lo dejaria fuera del campo toda la temporada</p>
+    </div>
+
+    <div class="card">
+        <img src="https://depor.com/resizer/v2/JJL4VH5T3JF7DEPRYCLYU6JLNE.jpg?auth=57eabb6c1033ebfcbf7049c1feb0cd83c1312ec16297926dc569b998906bb4b4&width=1200&height=680&quality=90&smart=true" alt="Lesión de Messi">
+        <h3>NUEVA GENERACION DEL BARCELONA</h3>
+        <p>los jovenes del fubol club barcelona detacan a nivel mundial siendo reconocidos por todos los clubs</p>
+    </div>
+
+    <div class="card">
+        <img src="https://carpetasfcb.com/filesedc/uploads/image/post/fichaje-en-camino-flick-pieza-clave-12_1200_800.webp" alt="Nuevo fichaje">
+        <h3>FICHAJE PARA APOYAR LA PORTERIA</h3>
+        <p>se confirma la llegada de nuevos portero el cual sera el nuevo portero que cuidara la porteria de club.</p>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="https://www.opinion.com.bo/asset/thumbnail,992,558,center,center/media/opinion/images/2024/08/27/2024082717484886763.jpg" alt="Victoria en el Clásico">
+            <h3>BACELONA INVICTO</h3>
+            <p>nadie consigue quitar el invicto al barcelona en la liga generando temor a los demas clubs</p>
+        </div>
+</div>
+</body>
+</html>
